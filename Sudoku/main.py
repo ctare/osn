@@ -91,6 +91,7 @@ def solve(x, y, board):
                 if solve(x + 1, y, board): # 再帰呼び出し
                     return True
                 board[y][x] = 0
+    return False
 
 
 #/************************************************************************
